@@ -33,7 +33,7 @@ score = r2_score(y_test, pred)
 
 # Streamlit web app elements
 st.title('Gold Price Model')
-img = Image.open('img.jpeg')
+img = Image.open('img.jpg')
 st.image(img)
 st.subheader('Using RandomForest')
 st.write(go)

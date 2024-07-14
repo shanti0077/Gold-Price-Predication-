@@ -79,3 +79,4 @@ st.subheader('Using RandomForest')
 st.write(go)
 st.subheader('Model Performance')
 st.write(f'R^2 Score: {score}')
+streamlit run GoldpricePredication.py
